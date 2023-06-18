@@ -42,7 +42,7 @@ title-slide-attributes:
 
 # Variables climáticas {background-color='orange'} 
 
-## Variación de variables climáticas promediadas en la cuenca del Río Aconcagua {.center}
+## Veamos la variación de variables climáticas promediadas en la cuenca del Río Aconcagua {.center}
 
 ## {background-image=img/clima_aconcagua.png background-size='contain'}
 
@@ -90,7 +90,7 @@ title-slide-attributes:
 
 ## Utilizan anomalías climáticas agregadas en varios meses {.center}
 
-## Si vemos la variación del promedio de indicadores de sequía en la cuenca del Río Aconcagua {.center}
+## Ahora veamos la variación del promedio de indicadores de sequía en la cuenca del Río Aconcagua {.center}
 
 ## {background-image=img/clima_aconcagua.png background-size='contain'}
 
@@ -150,6 +150,9 @@ title-slide-attributes:
 ## {background-image='img/map_zcndvi_aconcagua.png' background-size='contain'}
 
 ## {background-image='img/ODES_Logo_animación.gif' background-size='contain'}
+
+{{< fa brands github >}}
+
 <!-- ## Niveles de sequía -->
 
 <!-- ::: {.columns} -->
