@@ -151,6 +151,12 @@ title-slide-attributes:
 
 ## {background-image='img/ODES_Logo_animación.gif' background-size='contain'}
 
+## Gracias!! {.center}
+
+![](https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-512.png){width=50} [https://www.linkedin.com/company/odes-chile/](https://www.linkedin.com/company/odes-chile/)  
+![](https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-512.png){width=50} [_odeschile](https://instagram.com/_odeschile)  
+![](https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter_colored_svg-512.png){width=50} [@odes_chile](https://twitter.com/odes_chile)
+
 {{< fa brands github >}}
 
 <!-- ## Niveles de sequía -->
