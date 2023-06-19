@@ -151,7 +151,7 @@ title-slide-attributes:
 
 # ![](https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-music-note-256.png){width=50} Y la lluvia caerá ![](https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-music-note-256.png){width=50} ¿? {backgroun-color='lightgreen'}
 
-## Pronóstico de precipitación {background-image='img/precipitacion_esperada_aconcagua.png' background-size='contain'}
+## Pronóstico de precipitación {background-image='img/precipitacion_esperada_aconcagua.png' background-size='contain' background-position="bottom center"}
 
 ## {background-image='img/ODES_Logo_animación.gif' background-size='contain'}
 
