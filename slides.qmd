@@ -96,6 +96,22 @@ title-slide-attributes:
 
 ## {background-image=img/sequia_aconcagua.png background-size='contain'}
 
+## Categorias de sequía
+
+```{r}
+library(gt)
+library(tibble)
+palette <- c('#730000','#E60000','#FFAA00','#FFD37F','#FFFF00','#FFFFFF','#8CCDEF','#00BFFF','#1D90FF','#4169E1','#0000FF')
+labels <-  c("Sequía excepcional", "Sequía extrema", "Sequía severa", "Sequía moderada", "Anormalmente seco",'Normal',"Anormalmente humedo",'Moderadamente humedo','Severamente humedo','Extramademente humedo', 'Excepcionalmente humedo')
+
+data.frame(`Percentiles` = c('0-2','2-5','5-10','10-20','20-30','30-70','70-80','80-90','90-95','95-98','98-100'),
+                               retorno = c(">50","20-50","10-20","5-10","1,5-5","-","1,5-5","5-10","10-20","20-50",">50"),
+           niveles = labels) |> as_tibble() |> gt() |>  cols_align(
+    align = "center",
+    columns = everything()
+  ) |> cols_label(retorno = 'Retorno (años)') |> data_color(palette = palette,columns = 'niveles', method = 'factor',levels = labels)
+```
+
 <!-- ## Anomalías {.smaller} -->
 
 <!-- Datos mensuales entre 1981-2023   -->
@@ -161,27 +177,4 @@ title-slide-attributes:
 ![](https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-512.png){width=50} [_odeschile](https://instagram.com/_odeschile)  
 ![](https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter_colored_svg-512.png){width=50} [@odes_chile](https://twitter.com/odes_chile)
 
-{{< fa brands github >}}
 
-<!-- ## Niveles de sequía -->
-
-<!-- ::: {.columns} -->
-<!-- ::: {.column width="50%"} -->
-<!-- ![](img/map_spei12.png) -->
-<!-- ::: -->
-<!-- ::: {.column width="50%"} -->
-
-<!-- ```{r} -->
-<!-- library(gt) -->
-<!-- library(tibble) -->
-<!-- palette <- c('#730000','#E60000','#FFAA00','#FFD37F','#FFFF00','#FFFFFF','#8CCDEF','#00BFFF','#1D90FF','#4169E1','#0000FF') -->
-<!-- labels <-  c("Sequía excepcional", "Sequía extrema", "Sequía severa", "Sequía moderada", "Anormalmente seco",'Normal',"Anormalmente humedo",'Moderadamente humedo','Severamente humedo','Extramademente humedo', 'Excepcionalmente humedo') -->
-
-<!-- data.frame(`Percentiles` = c('0-2','2-5','5-10','10-20','20-30','30-70','70-80','80-90','90-95','95-98','98-100'), -->
-<!--                                niveles = labels) |> as_tibble() |> gt() |>  cols_align( -->
-<!--     align = "center", -->
-<!--     columns = everything() -->
-<!--   ) |> data_color(palette = palette,method = 'factor',levels = labels) -->
-<!-- ``` -->
-<!-- ::: -->
-<!-- ::: -->
