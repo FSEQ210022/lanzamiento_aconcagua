@@ -42,6 +42,30 @@ title-slide-attributes:
 
 # Variables climáticas {background-color='orange'} 
 
+## Datos usados
+
+Modelo climáticos de reanalisis producto `ERA5-Land`
+
+- `Resolución espacial:` 0.1° (9km)
+- `Frecuencia temporal:` horaria
+- `Datos históricos:` desde 1950
+- `Variables usadas:`
+    - Temperatura
+    - Precipitación
+    - Humedad de suelo
+  
+## Datos usados
+
+Espectroradiometro de imágenes de Resolución Moderada (`MODIS`)
+
+- `Producto:` MOD13A3.061
+- `Resolución espacial:` ~1km
+- `Frecuencia temporal:` mensual
+- `Datos históricos:` desde 2000
+- `Variables usadas:`
+    - Índice de vegetación de diferencia normalizada (NDVI)
+    
+    
 ## Veamos la variación de variables climáticas promediadas en la cuenca del Río Aconcagua {.center}
 
 ## {background-image=img/clima_aconcagua.png background-size='contain'}
@@ -89,6 +113,14 @@ title-slide-attributes:
 # Indicadores de sequía {background-color='darkgreen'}
 
 ## Utilizan anomalías climáticas agregadas en varios meses {.center}
+
+## Ventajas de los indicadores de sequía
+
+1. Permiten comparación entre diferentes zonas climáticas (humedas, aridas, ...)
+
+2. Permiten comparación entre diferentes estaciones del año.
+
+3. Se pueden categorizar de acuerdo a la ocurrencia del evento, de acuerdo a su comportamiento histórico.
 
 ## Ahora veamos la variación del promedio de indicadores de sequía en la cuenca del Río Aconcagua {.center}
 
@@ -164,10 +196,6 @@ data.frame(`Percentiles` = c('0-2','2-5','5-10','10-20','20-30','30-70','70-80',
 ## {background-image='img/map_zcsma_aconcagua.png' background-size='contain'}
 
 ## {background-image='img/map_zcndvi_aconcagua.png' background-size='contain'}
-
-# ![](https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-music-note-256.png){width=50} Y la lluvia caerá ![](https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-music-note-256.png){width=50} ¿? {backgroun-color='lightgreen'}
-
-## Pronóstico de precipitación {background-image='img/precipitacion_esperada_aconcagua.png' background-size='contain' background-position="bottom center"}
 
 ## {background-image='img/ODES_Logo_animación.gif' background-size='contain'}
 
